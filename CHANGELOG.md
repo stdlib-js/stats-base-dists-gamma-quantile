@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-10-05)
+
+<section class="features">
+
+### Features
+
+-   [`4f9e737`](https://github.com/stdlib-js/stdlib/commit/4f9e73706fb735dd6214ab910db97be8e5c0c459) - add C implementation for `stats/base/dists/gamma/quantile` [(#14657)](https://github.com/stdlib-js/stdlib/pull/14657)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`4f9e737`](https://github.com/stdlib-js/stdlib/commit/4f9e73706fb735dd6214ab910db97be8e5c0c459) - **feat:** add C implementation for `stats/base/dists/gamma/quantile` [(#14657)](https://github.com/stdlib-js/stdlib/pull/14657) _(by Philipp Burckhardt, Karan Anand)_
 -   [`c6230dd`](https://github.com/stdlib-js/stdlib/commit/c6230dd99b8485b978ccbbf55e3bf3d4aba54359) - **test:** migrate `stats/base/dists/gamma/quantile` to ULP-based assertions [(#14167)](https://github.com/stdlib-js/stdlib/pull/14167) _(by Athan Reines)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`9c42a28`](https://github.com/stdlib-js/stdlib/commit/9c42a2830057c061cb449cabfa56d58caba8362b) - **bench:** refactor to use string interpolation in `stats/base/dists/gamma` [(#10713)](https://github.com/stdlib-js/stdlib/pull/10713) _(by Siddhartha Mondal)_
@@ -27,9 +38,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Siddhartha Mondal
 
