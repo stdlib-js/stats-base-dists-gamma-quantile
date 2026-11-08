@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`b44ccd7`](https://github.com/stdlib-js/stdlib/commit/b44ccd7ba2859c64f3cced1bab1bf9d4a370da90) - **test:** fix typos in descriptions [(#15912)](https://github.com/stdlib-js/stdlib/pull/15912) _(by Philipp Burckhardt)_
 -   [`4f9e737`](https://github.com/stdlib-js/stdlib/commit/4f9e73706fb735dd6214ab910db97be8e5c0c459) - **feat:** add C implementation for `stats/base/dists/gamma/quantile` [(#14657)](https://github.com/stdlib-js/stdlib/pull/14657) _(by Philipp Burckhardt, Karan Anand)_
 -   [`c6230dd`](https://github.com/stdlib-js/stdlib/commit/c6230dd99b8485b978ccbbf55e3bf3d4aba54359) - **test:** migrate `stats/base/dists/gamma/quantile` to ULP-based assertions [(#14167)](https://github.com/stdlib-js/stdlib/pull/14167) _(by Athan Reines)_
